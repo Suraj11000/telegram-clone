@@ -1,0 +1,25 @@
+/* Custom scrollbar styles */
+.min-h-minus-20px {
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+  min-height: calc(100vh - 56px);
+}
+
+.min-h-minus-20px::-webkit-scrollbar {
+  width: 8px; /* Decrease scrollbar width */
+}
+
+.min-h-minus-20px::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.min-h-minus-20px::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-visible::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+}
