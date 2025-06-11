@@ -9,3 +9,4 @@ also added the dark and light theme
 added seach functionality 
 added a dropdown 
 I hope you like my work, unfortunately i can able to complete the ui for small screen size thank you so much.
+dfs
